@@ -1,4 +1,4 @@
-# Mirroring a git repository properly
+# Copying a git repository properly
 
 G'day Internet.
 
