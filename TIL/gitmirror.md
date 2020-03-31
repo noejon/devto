@@ -29,7 +29,7 @@ When pushing to the new repo we could encounter the following error
 ```
 ! [remote rejected] refs/pull/1/head -> refs/pull/1/head (deny updating a hidden ref)
 ```
-This is likely because a [pull request was opened](https://stackoverflow.com/a/34266401) in the previous repository.
+This is likely because a [pull request was opened](https://stackoverflow.com/a/34266401) in the previous repository. It does not stop the repository being copied, it just does not copy the pull request.
 
 That's all folks, I hope this helps.
 
