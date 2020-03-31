@@ -12,7 +12,7 @@ First we want to retrieve the old repository. In a terminal, run the following c
 λ git clone --mirror git@company.com/repository.git
 ```
 
-Note the [--mirror](https://git-scm.com/docs/git-clone#Documentation/git-clone.txt---mirror) option. A new `repository.git` folder is created, it contains both the codebase and the history.
+Note the [--mirror](https://git-scm.com/docs/git-clone#Documentation/git-clone.txt---mirror) option: it creates a `repository.git` folder with both the codebase and the history.
 
 Before running the next commands, we need to create an empty repository in github cloud. If you wanted to change the name of you repository, now is a good time. For this example we will keep the name `repository`.
 
@@ -31,6 +31,6 @@ When pushing to the new repo we could encounter the following error
 ```
 This is likely because a [pull request was opened](https://stackoverflow.com/a/34266401) at the previous repository.
 
-That's all folks
+That's all folks, I hope this helps.
 
 Jon
